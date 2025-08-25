@@ -1,0 +1,42 @@
+/* CSS DOCUMENT */
+@charset "UTF-8";
+/*configuraiones generales*/
+
+@font-face {
+    font-family: "Archivo Regular";
+    src: url(fuentes/Archivo-Regular.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Archivo Italic";
+    src: url(fuentes/Archivo-Italic.ttf) format(truetype);
+    font-weight: normal;
+    font-style: italic;
+}
+
+* {
+    font-family: 'Archivo Regular', sans-serif;
+    color: rgb(26, 26, 162);
+    background-color: rgb(230, 238, 238);
+}
+
+/*empieza las aplicaciones*/
+
+h1,h2,h3,h4 {
+    font-family: 'Archivo Italic', sans-serif;
+    color: rgb(26, 26, 162);
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    text-wrap-style:balance;
+}
+
+p {
+    text-wrap-style: balance;
+}
+
