@@ -24,7 +24,10 @@
 
 /*empieza las aplicaciones*/
 
-h1,h2,h3,h4 {
+h1,
+h2,
+h3,
+h4 {
     font-family: 'Archivo Italic', sans-serif;
     color: rgb(26, 26, 162);
 }
@@ -33,10 +36,9 @@ h1 {
     font-size: 4rem;
     line-height: 4rem;
     text-align: center;
-    text-wrap-style:balance;
+    text-wrap-style: balance;
 }
 
 p {
     text-wrap-style: balance;
 }
-
