@@ -5,55 +5,69 @@
     <meta charset="UTF-8">
     <title>Mi CV</title>
     <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
-</style>
+    </style>
     </style>
 </head>
 
 <body>
     <header>
-        <nav>
+        <nav class="botonera">
             <a href="#">INICIO</a>
-            <a href="#">SOBRE MI</a>
-            <a href="#">TRABAJOS</a>
-            <a href="#">FORMACION ACADEMICA</a>
-            <a href="#">CONTACTO</a>
+            <a href="#trabajos">TRABAJOS</a>
+            <a href="#formacion-academica">FORMACION ACADEMICA</a>
+            <a href="#habilidades">HABILIDADES</a>
+            <a href="#contactos">CONTACTO</a>
         </nav>
-        <h1>Luciana Contreras Contursi</h1>
     </header>
     <main>
         <section id="hero">
+            <h1>Luciana Contreras Contursi</h1>
+        </section>
+        <section id="sobre-mi">
+            <img id="foto-perfil" src="img/mi-foto.jpg" alt="foto de perfil de Luciana">
             <article>
                 <h2>SOBRE MI</h2>
-                <p>Mi nombre es Luciana, pero me pueden decir Lu, tengo 22 años y soy estudiante de la carrera de Diseño y Comunicación Visual en la UNLa, Argentina. Además del diseño, me gusta la ilustración tanto en digital y tradicional.</p>
+                <p>Mi nombre es Luciana, pero me pueden decir Lu, tengo 22 años y soy estudiante de la carrera de Diseño y Comunicación Visual en la UNLa, Argentina. Además del diseño, me gusta la ilustración tanto en digital como en tradicional.</p>
+            </article>
+        </section>
+        <section id="trabajos">
+            <h2>TRABAJOS</h2>
+            <article>
+                <h3>Pastas Frescas Nuestra Señora de Luján</h3>
+                <p>Empleada en fábrica de pastas, delivery y atención al público. Agosto 2024-Mayo 2025</p>
             </article>
             <article>
-                <h3>HABILIDADES</h3>
-                <ul>Adobe Illustrator</ul>
-                <ul>Adobe Photoshop</ul>
-                <ul>Adobe InDesing</ul>
+                <h3>Café Lekker</h3>
+                <p>Empleada en cafetería, moza y bachera.Junio 2025-Actualidad</p>
             </article>
         </section>
-        <section>
-            <h2>TRABAJOS</h2>
-            <h3>Pastas Frescas Nuestra Señora de Luján</h3>
-            <p>Empleada en fábrica de pastas, delivery y atención al público. Agosto 2024-Mayo 2025</p>
-            <h3>Café Lekker</h3>
-            <p>Empleada en cafetería, moza y bachera.Junio 2025-Actualidad</p>
-        </section>
-        <section>
+        <section id="formacion-academica">
             <h2>FORMACION ACADEMICA</h2>
-            <h3>Instituto San José, Lomas de Zamora</h3>
-            <p>Bachiller en Arte, Artes Visuales. Marzo 2015-Diciembre 2020</p>
-            <h3>Laim Centro Formación y Capacitación Profesional, San Justo</h3>
-            <p>Profesorado de Guitarra, Teoría y Solfeo. Julio 2017-Diciembre 2023</p>
-            <h3>Universidad Nacional de Lanús</h3>
-            <p>Licenciatura en Diseño y Comunicación Visual. Febrero 2021-Actualidad</p>
+            <article>
+                <h3>Instituto San José, Lomas de Zamora</h3>
+                <p>Bachiller en Arte, Artes Visuales. Marzo 2015-Diciembre 2020</p>
+            </article>
+            <article>
+                <h3>Laim Centro Formación y Capacitación Profesional, San Justo</h3>
+                <p>Profesorado de Guitarra, Teoría y Solfeo. Julio 2017-Diciembre 2023</p>
+            </article>
+            <article>
+                <h3>Universidad Nacional de Lanús</h3>
+                <p>Licenciatura en Diseño y Comunicación Visual. Febrero 2021-Actualidad</p>
+            </article>
+        </section>
+        <section id="habilidades">
+            <h3>HABILIDADES</h3>
+            <ul>Adobe Illustrator</ul>
+            <ul>Adobe Photoshop</ul>
+            <ul>Adobe InDesing</ul>
         </section>
     </main>
     <footer>
-        <ul>
+        <ul id="enlaces">
             <li><a href="https://www.instagram.com/blood_lacc/">Instagram</a></li>
             <li><a href="https://www.facebook.com/luciana.contrerascontursi">Facebook</a></li>
             <li><a href="https://www.behance.net/lucianacontrer6">Behance</a></li>
