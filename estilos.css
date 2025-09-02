@@ -18,12 +18,13 @@
 
 * {
     font-family: 'Archivo Regular', sans-serif;
-    color: rgb(26, 26, 162);
     background-color: rgb(230, 238, 238);
+    color: rgb(26, 26, 162);
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     cursor: url(img/cursor.svg), auto;
+    gap: 20px;
 }
 
 /*empieza las aplicaciones*/
@@ -46,7 +47,7 @@ h1 {
     font-size: 4rem;
     line-height: 4rem;
     text-wrap-style: balance;
-    color: rgb(26, 26, 162);
+
 }
 
 p {
@@ -56,7 +57,6 @@ p {
 .botonera {
     background-color: rgb(26, 26, 162);
     padding: 5px;
-    margin: 0px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -65,8 +65,6 @@ p {
 main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin-top: 0;
     margin-left: 60px;
     margin-right: 60px;
     margin-bottom: 60px;
@@ -80,43 +78,29 @@ main {
 
 #foto-perfil {
     height: auto;
-    max-width: 280px;
 }
 
-#sobre-mi {
-    padding: 20px;
-    margin-top: 0px;
-    margin-bottom: 10px;
-    border:solid rgb(26, 26, 162);
-    display: flex;
-    gap: 20px;
-}
-
-#trabajos {
+#sobre-mi,#trabajos,#formacion-academica,#habilidades {
     padding: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
     border:solid rgb(26, 26, 162);
     display: flex;
-    gap: 20px;
 }
 
-#formacion-academica {
-    padding: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border:solid rgb(26, 26, 162);
+#trabajos,#formacion-academica {
     display: flex;
-    gap: 20px;
+    flex-direction: column;
+}
+
+#cajas-a,#cajas-b{
+    display: flex;
 }
 
 #habilidades {
-    padding: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border:solid rgb(26, 26, 162);
-    display: flex;
-    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    max-width: fit-content;
 }
 
 footer {
