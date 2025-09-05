@@ -33,6 +33,7 @@ a {
     text-decoration: none;
     background-color: rgb(26, 26, 162);
     color: rgb(230, 238, 238);
+    border: solid rgb(26, 26, 162);
 }
 
 h1,
@@ -56,7 +57,7 @@ p {
 
 .botonera {
     background-color: rgb(26, 26, 162);
-    padding: 5px;
+    padding: 10px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -65,8 +66,8 @@ p {
 main {
     display: flex;
     flex-direction: column;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 60px;
 }
 
@@ -80,21 +81,28 @@ main {
     height: auto;
 }
 
-#sobre-mi,#trabajos,#formacion-academica,#habilidades {
+#sobre-mi,
+#trabajos,
+#formacion-academica,
+#habilidades {
     padding: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
-    border:solid rgb(26, 26, 162);
+    border: solid rgb(26, 26, 162);
     display: flex;
+    border-radius: 25px;
 }
 
-#trabajos,#formacion-academica {
+#trabajos,
+#formacion-academica {
     display: flex;
     flex-direction: column;
 }
 
-#cajas-a,#cajas-b{
+#cajas-a,
+#cajas-b {
     display: flex;
+    gap: 10%;
 }
 
 #habilidades {
@@ -107,6 +115,19 @@ footer {
     background-color: rgb(26, 26, 162);
     color: rgb(230, 238, 238);
     display: flex;
+    justify-content: space-between;
     align-items: center;
     padding: 20px;
+}
+
+ul {
+    background-color: rgb(26, 26, 162);
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+#c {
+    background-color: rgb(26, 26, 162);
+    color: rgb(230, 238, 238);
 }
